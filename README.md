@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores 3D object classification using LiDAR point cloud data from the Lyft Level 5 autonomous driving dataset. We perform detailed data analysis—visualizing and comparing bounding box attributes (positions and dimensions) for various object classes (vehicles, pedestrians, cyclists, etc.). Our analysis reveals structured spatial patterns, strong class separability, and real-world realism in the physical properties and spatial organization of annotated objects. These findings inform both dataset quality assurance and robust model development for self-driving technology.
+This project investigates 3D object classification using LiDAR point cloud data from the Lyft Level 5 autonomous driving dataset. Detailed analyses are performed to visualize and compare bounding box attributes across multiple object classes, revealing structured spatial patterns, pronounced class separability, and realistic spatial properties. These insights support dataset quality assurance and inform robust model development for autonomous vehicle perception systems.
 
 ## Features
 
@@ -25,7 +25,7 @@ This project explores 3D object classification using LiDAR point cloud data from
 1. Install dependencies via pip or conda:
 
 ```bash
-pip install pandas numpy matplotlib plotly seaborn opencv-python lyft-dataset-sdk scikit-learn pyquaternion tqdm
+pip install pandas numpy matplotlib plotly seaborn opencv-python lyft-dataset-sdk scikit-learn tqdm
 ```
 
 2. Usage
@@ -41,3 +41,9 @@ pip install pandas numpy matplotlib plotly seaborn opencv-python lyft-dataset-sd
 * Visualization: matplotlib, plotly, seaborn, cv2, PIL
 * Machine learning and evaluation: scikit-learn
 * Utilities and system tools: os, glob, pickle, json, tqdm
+
+## Credits and Citations
+
+* https://github.com/lyft/nuscenes-devkit
+* https://www.kaggle.com/code/tarunpaparaju/lyft-competition-understanding-the-data
+* https://www.kaggle.com/gaborfodor/eda-3d-object-detection-challenge
